@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1c1c2b;
+    color: #fff;
+}
+
+/* ส่วนหัว */
+header {
+    background-color: #151521;
+    padding: 20px 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: #fff;
+}
+
+.logo span {
+    color: #fbd307;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #fbd307;
+}
+
+/* ส่วนโปรไฟล์ (Home) */
+.profile {
+    padding: 100px 0;
+}
+
+.profile-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-text {
+    max-width: 600px;
+}
+
+.profile-text p:first-of-type {
+    color: #fbd307;
+    font-size: 18px;
+}
+
+.profile-text h1 {
+    font-size: 48px;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.profile-text p:last-of-type {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #b2b2b5;
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #fbd307;
+    color: #151521;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #e6b807;
+}
+
+.profile-image img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Divider (เส้นแบ่งระหว่าง Section) */
+hr.divider {
+    border: 0;
+    height: 2px;
+    background-color: #fbd307;
+    margin: 50px 0;
+}
+
+/* Styling for other sections */
+#about, #resume, #contact {
+    padding: 100px 0;
+}
+
+#about h2, #resume h2, #contact h2 {
+    font-size: 36px;
+    color: #fbd307;
+    margin-bottom: 20px;
+}
