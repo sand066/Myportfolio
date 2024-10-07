@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1c1c2b;
+    color: #fff;
+}
+
+/* ส่วนหัว */
+header {
+    background-color: #151521;
+    padding: 20px 0;
+}
+
+.container1 {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: #fff;
+}
+
+.logo span {
+    color: #fbd307;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #fbd307;
+}
+
+.portfolio {
+    padding: 100px 0;
+    background-color: #1c1c2b;
+}
+
+.portfolio h2 {
+    text-align: center;
+    color: #fbd307;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.portfolio-item {
+    background-color: #151521;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.portfolio-item:hover {
+    transform: translateY(-10px);
+    background-color: #252535;
+}
+
+.portfolio-item img {
+    width: 10%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.portfolio-item h3 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.portfolio-item p {
+    font-size: 16px;
+    color: #b2b2b5;
+}
+
+
+.container2 {
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
