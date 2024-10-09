@@ -79,11 +79,11 @@ nav ul li a:hover {
     color: #fff;
 }
 
-.profile-text p:last-of-type {
+.profile-text p{
     font-size: 16px;
     line-height: 1.6;
     color: #b2b2b5;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .btn {
